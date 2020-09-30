@@ -1,0 +1,21 @@
+_id: req_5fb40297c89e4a70b19b54ff39fb4ebd
+type: Request
+parentId: fld_a86149a3fcc241b9a1e9519c3d7d5551
+modified: 1601449179091
+created: 1601449038433
+url: "{{ base_url }}/api/get/products/new"
+name: new
+description: Запрос на получение списка всех новых товаров для слайдера новых товаров.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038433
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

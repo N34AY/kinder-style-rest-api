@@ -1,0 +1,48 @@
+_id: req_b5e6ba029d6e42d28f394b6854ad2fc9
+type: Request
+parentId: fld_3f434c5911984625b5f8a9d68c7a29bb
+modified: 1601453843271
+created: 1601449038224
+url: "{{ base_url }}/api/auth/register"
+name: signup
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: name
+      disabled: false
+      value: "{{ user.name }}"
+      id: pair_c9af96ee82314ac6982688789a6752b4
+    - type: text
+      name: surname
+      disabled: false
+      value: "{{ user.surname }}"
+      id: pair_47980c85fe5c4f74b34d6316b0af89b9
+    - type: text
+      name: phone
+      disabled: false
+      value: "{{ user.phone }}"
+      id: pair_cf3075715e2e4fc6a798e9bf79444e67
+    - type: text
+      name: email
+      disabled: false
+      value: "{{ user.email }}"
+      id: pair_0f58bc09f06b4200b14291570fd61524
+    - type: text
+      name: password
+      disabled: false
+      value: "{{ user.password }}"
+      id: pair_dea795defcc5436285cbb45f5717b98f
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038224
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

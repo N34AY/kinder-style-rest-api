@@ -1,0 +1,28 @@
+_id: req_591e52485ece464e818544dfb4a8573b
+type: Request
+parentId: fld_3f434c5911984625b5f8a9d68c7a29bb
+modified: 1601450439185
+created: 1601449038198
+url: "{{ base_url }}/api/auth/restore-password-request"
+name: restore-password
+description: Запрос на восстановление пароля пользователя
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: email
+      disabled: false
+      value: "{{ user.email }}"
+      id: pair_bbc65d4f33ad48908044106753eb787a
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038198
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

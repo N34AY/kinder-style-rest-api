@@ -1,0 +1,25 @@
+_id: req_7f4d7b438d22416d912c4c35a12df7c3
+type: Request
+parentId: fld_74ad4a85a0fc4c0d8c6dcabef63f8d18
+modified: 1601449271337
+created: 1601449038307
+url: "{{ base_url }}/api/get/promocode/{}"
+name: promocode
+description: Запрос на получение промокода по его коду
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{jwttoken}}"
+  prefix: ""
+metaSortKey: -1601449038307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

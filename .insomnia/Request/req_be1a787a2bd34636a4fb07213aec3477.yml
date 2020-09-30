@@ -1,0 +1,33 @@
+_id: req_be1a787a2bd34636a4fb07213aec3477
+type: Request
+parentId: fld_0568be2a076a4013938aa50058ef00a8
+modified: 1601452806717
+created: 1601449038174
+url: "{{ base_url }}/api/get/products/search"
+name: header-search
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: s
+    value: "{{ search.text.ru }}"
+    description: ""
+    id: pair_e4d0cd4e0d4d4f53a7e08887b6de5ed3
+  - name: take
+    value: "{{ search.take }}"
+    description: ""
+    id: pair_ccb39d54a99940ad98dc71fb2f94d4cf
+  - name: offset
+    value: "{{ search.offset }}"
+    description: ""
+    id: pair_719e30b6bd41431f8345aa6322a2ef60
+headers: []
+authentication: {}
+metaSortKey: -1601449038174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

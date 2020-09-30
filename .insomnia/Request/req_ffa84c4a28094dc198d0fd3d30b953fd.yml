@@ -1,0 +1,41 @@
+_id: req_ffa84c4a28094dc198d0fd3d30b953fd
+type: Request
+parentId: fld_b8c661fe64214736952afd5b5a407ec3
+modified: 1601453715614
+created: 1601449038145
+url: "{{ base_url }}/api/auth/user"
+name: user-profile-info
+description: ""
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+        "apartment": "apartmenttext",
+        "auth": true,
+        "city": {{ user.city }},
+        "email": {{ user.email }},
+        "house": {{ user.house }},
+        "id": {{ user.id }},
+        "is_admin": false,
+        "name": "nametext",
+        "phone": "phonetext",
+        "street": "streettext",
+        "success": true,
+        "surname": {{ user.surname }}
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ user.jwttoken }}"
+  prefix: ""
+metaSortKey: -1601449038145
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

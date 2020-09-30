@@ -1,0 +1,20 @@
+_id: ut_35c7a2cc20b04517b8bb12da3f6091c0
+type: UnitTest
+parentId: uts_adb813c279d94087a0fc2c33470d78e3
+modified: 1601467732033
+created: 1601466971861
+requestId: req_d3d1d3cca8f14022bd776568c2134d98
+name: get-all-categories / Returns categories
+code: |-
+  const response = await insomnia.send()
+  const body = JSON.parse(response.data)
+  const item = body[0]
+
+  expect(body).to.be.an(`array`)
+  expect(item).to.be.an(`object`)
+
+  const slug = item.slug
+
+  expect(slug)
+  expect(slug).to.not.be.null
+  expect(slug).to.not.be.undefined

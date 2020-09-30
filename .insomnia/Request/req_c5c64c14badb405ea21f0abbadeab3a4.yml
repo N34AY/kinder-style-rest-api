@@ -1,0 +1,21 @@
+_id: req_c5c64c14badb405ea21f0abbadeab3a4
+type: Request
+parentId: fld_4d77700374d74f24802d11eb6b04e617
+modified: 1601449235275
+created: 1601449038342
+url: "{{ base_url }}/api/get/blog/{{ article.slug }}"
+name: article
+description: Запрос на получение статьи по её id
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038342
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

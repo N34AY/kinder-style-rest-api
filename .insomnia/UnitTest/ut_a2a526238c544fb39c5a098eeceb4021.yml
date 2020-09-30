@@ -1,0 +1,10 @@
+_id: ut_a2a526238c544fb39c5a098eeceb4021
+type: UnitTest
+parentId: uts_adb813c279d94087a0fc2c33470d78e3
+modified: 1601466879618
+created: 1601465853989
+requestId: req_02b599c409a84df4b76443f12dd2db88
+name: get-category-filters / Returns 200
+code: |-
+  const response = await insomnia.send()
+  expect(response.status).to.equal(200)

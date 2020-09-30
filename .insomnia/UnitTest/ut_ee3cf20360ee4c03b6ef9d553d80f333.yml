@@ -1,0 +1,16 @@
+_id: ut_ee3cf20360ee4c03b6ef9d553d80f333
+type: UnitTest
+parentId: uts_adb813c279d94087a0fc2c33470d78e3
+modified: 1601465743130
+created: 1601458985395
+requestId: req_70a346c2b24542299cf6e908e2884c56
+name: get-main-banner / Returns banner picture url
+code: |-
+  const response = await insomnia.send()
+  const item = JSON.parse(response.data)[0]
+
+  expect(item).to.have.property(`picture`)
+
+  const picture = item.picture
+
+  expect(picture).to.not.be.empty

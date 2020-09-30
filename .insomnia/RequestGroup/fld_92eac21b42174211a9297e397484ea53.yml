@@ -1,0 +1,10 @@
+_id: fld_92eac21b42174211a9297e397484ea53
+type: RequestGroup
+parentId: fld_1f2922096261462c91e43c963917af82
+modified: 1601449038454
+created: 1601449038454
+name: Products
+description: Запросы на получение списков товаров
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1601449038454

@@ -1,0 +1,29 @@
+_id: req_38185daaf1a64c7cad9497a10b5eb5bb
+type: Request
+parentId: fld_b8c661fe64214736952afd5b5a407ec3
+modified: 1601453095480
+created: 1601449038136
+url: "{{ base_url }}/api/get/auth/my-orders"
+name: user-orders
+description: Запрос на получение заказов пользователя
+method: GET
+body: {}
+parameters:
+  - name: take
+    value: "{{ user.orders.take }}"
+    description: ""
+    id: pair_09e64ea9a3f541a68dba983d3f74f363
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ user.jwttoken }}"
+  prefix: ""
+metaSortKey: -1601449038136
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

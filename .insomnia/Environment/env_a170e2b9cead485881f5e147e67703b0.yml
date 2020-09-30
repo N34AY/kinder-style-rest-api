@@ -1,0 +1,75 @@
+_id: env_a170e2b9cead485881f5e147e67703b0
+type: Environment
+parentId: env_71ded4339b704f48da5bd1c42224a1e70e66e9d5
+modified: 1601453580220
+created: 1601449071693
+name: test-env
+data:
+  base_url: api-kinder.mobios.work
+  user:
+    id: ""
+    jwttoken: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
+      'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+    email: ghghfg@gmail.com
+    password: fdgfdgfd
+    phone: "380685331858"
+    name: name
+    surname: surname
+    city: odessa
+    house: "11"
+    orders:
+      take: 10
+  product:
+    slug: khudi-dlya-mladentsa
+  article:
+    slug: goluboy-i-rozovyy-lomaem-stereotipy
+  category:
+    slug: detskaya-odezhda
+  page:
+    slug: o-nas
+  search:
+    text:
+      ua: худі
+      ru: худи
+    take: 0
+    offset: 6
+dataPropertyOrder:
+  "&":
+    - base_url
+    - user
+    - product
+    - article
+    - category
+    - page
+    - search
+  "&~|user":
+    - id
+    - jwttoken
+    - email
+    - password
+    - phone
+    - name
+    - surname
+    - city
+    - house
+    - orders
+  "&~|user~|orders":
+    - take
+  "&~|product":
+    - slug
+  "&~|article":
+    - slug
+  "&~|category":
+    - slug
+  "&~|page":
+    - slug
+  "&~|search":
+    - text
+    - take
+    - offset
+  "&~|search~|text":
+    - ua
+    - ru
+color: "#ff7e14"
+isPrivate: false
+metaSortKey: 1601449071693

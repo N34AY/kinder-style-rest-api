@@ -1,0 +1,23 @@
+_id: ut_29fe6f5468334e18b0f8b138e90435bc
+type: UnitTest
+parentId: uts_adb813c279d94087a0fc2c33470d78e3
+modified: 1601466982431
+created: 1601466047657
+requestId: req_02b599c409a84df4b76443f12dd2db88
+name: get-category-filters / Returns filters
+code: |
+  const response = await insomnia.send()
+  const body = JSON.parse(response.data)
+  const item = body[0]
+
+  expect(body).to.be.an(`array`)
+  expect(item).to.be.an(`object`)
+
+  const values = item.values
+
+  expect(values).to.be.an(`array`)
+
+  for (let value of values) {
+  	expect(value.id).to.not.be.null
+  	expect(value.id).to.not.be.undefined
+  }

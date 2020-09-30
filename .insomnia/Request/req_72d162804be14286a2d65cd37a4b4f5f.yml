@@ -1,0 +1,22 @@
+_id: req_72d162804be14286a2d65cd37a4b4f5f
+type: Request
+parentId: fld_a86149a3fcc241b9a1e9519c3d7d5551
+modified: 1601449190844
+created: 1601449038410
+url: "{{ base_url }}/api/get/products/similar/{{ product.slug }}"
+name: similar
+description: Запрос на получение списка похожих активных товаров. Нужно передать
+  slug товара к которому нужно подобрать похожие товары.
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038410
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

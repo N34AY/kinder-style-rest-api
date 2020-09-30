@@ -1,0 +1,11 @@
+_id: fld_a86149a3fcc241b9a1e9519c3d7d5551
+type: RequestGroup
+parentId: fld_92eac21b42174211a9297e397484ea53
+modified: 1601449038444
+created: 1601449038444
+name: Sliders
+description: Запросы на получение товаров для слайдеров новинок, акций, хитов,
+  похожих и просмотренных.
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1601449038444

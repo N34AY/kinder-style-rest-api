@@ -1,0 +1,25 @@
+_id: req_eab9162aa0ad4a3390c29f3c6c86a52f
+type: Request
+parentId: fld_3640510eab4e43ce9f56e68ac6852d32
+modified: 1601452535923
+created: 1601449038276
+url: "{{ base_url }}/api/get/favorites/all"
+name: all
+description: Запрос на получение списка всех избранных товаров. Нужна авторизация
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ user.jwttoken }}"
+  prefix: ""
+metaSortKey: -1601449038276
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

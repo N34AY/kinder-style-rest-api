@@ -1,0 +1,25 @@
+_id: req_d48ac8fe3a6448bb8d1960eb9545987a
+type: Request
+parentId: fld_b8c661fe64214736952afd5b5a407ec3
+modified: 1601453689030
+created: 1601449038155
+url: "{{ base_url }}/api/get/auth/user"
+name: user-profile-info
+description: Запрос на получение информации о пользователе
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ user.jwttoken }}"
+  prefix: ""
+metaSortKey: -1601449038155
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

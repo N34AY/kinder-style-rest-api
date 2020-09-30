@@ -1,0 +1,10 @@
+_id: fld_3640510eab4e43ce9f56e68ac6852d32
+type: RequestGroup
+parentId: fld_1f2922096261462c91e43c963917af82
+modified: 1601449038299
+created: 1601449038299
+name: Favorites
+description: Запросы на работу с изыбранными товарами
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1601449038299

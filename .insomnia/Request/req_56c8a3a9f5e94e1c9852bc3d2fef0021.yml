@@ -1,0 +1,25 @@
+_id: req_56c8a3a9f5e94e1c9852bc3d2fef0021
+type: Request
+parentId: fld_6220d3d542f343b981d1b64575fc7525
+modified: 1601450519812
+created: 1601449038082
+url: "{{ base_url }}/api/get/cart/addresses"
+name: user-addresses
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  disabled: false
+  token: "{{ user.jwttoken }}"
+  prefix: ""
+metaSortKey: -1601449038082
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

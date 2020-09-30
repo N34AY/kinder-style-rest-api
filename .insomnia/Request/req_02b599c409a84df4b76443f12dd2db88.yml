@@ -1,0 +1,21 @@
+_id: req_02b599c409a84df4b76443f12dd2db88
+type: Request
+parentId: fld_1453a917cf7d47e782d39fec102e4ba3
+modified: 1601465789670
+created: 1601449038551
+url: "{{ base_url }}/api/get/categories/{{ category.slug }}/filters"
+name: category-filters
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038551
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

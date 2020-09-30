@@ -1,0 +1,22 @@
+_id: ut_35e4b5b824484bf880ef010ec045a762
+type: UnitTest
+parentId: uts_adb813c279d94087a0fc2c33470d78e3
+modified: 1601468033521
+created: 1601467843224
+requestId: null
+name: get-category-products / Returns products
+code: |-
+  const response = await insomnia.send()
+  const body = JSON.parse(response.data)
+  const products = body.products
+
+  expect(body).to.be.an(`object`)
+  expect(products).to.be.an(`array`)
+
+  for ( let product of products ) {
+
+  }
+
+  expect(slug)
+  expect(slug).to.not.be.null
+  expect(slug).to.not.be.undefined

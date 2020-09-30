@@ -1,0 +1,21 @@
+_id: req_f03846a8a3ab43af9eb68faf5976a0f3
+type: Request
+parentId: fld_4d77700374d74f24802d11eb6b04e617
+modified: 1601449258475
+created: 1601449038330
+url: "{{ base_url }}/api/get/blog/latest/{{ article.slug }}"
+name: latest
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038330
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

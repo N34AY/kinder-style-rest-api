@@ -1,0 +1,29 @@
+_id: req_3073cf26c46b42feb006ed460df2a5cc
+type: Request
+parentId: fld_a86149a3fcc241b9a1e9519c3d7d5551
+modified: 1601452474195
+created: 1601449038387
+url: "{{ base_url }}/api/products/viewed"
+name: viewed
+description: Запрос на получение списка просмотренных товаров. Нужна авторизация.
+method: POST
+body:
+  mimeType: ""
+  text: |-
+    {
+    	"products": ["8", "9"],
+    	"_token": {{ user.jwttoken }}
+    }
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ user.jwttoken }}"
+metaSortKey: -1601449038387
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

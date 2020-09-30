@@ -1,0 +1,21 @@
+_id: req_6b5c03cfd91f47c096df33a4c8f5ef87
+type: Request
+parentId: fld_99001714dbdd4ee0a91e81144768c224
+modified: 1601449173500
+created: 1601449038465
+url: "{{ base_url }}/api/get/brends"
+name: brands
+description: Запрос на получение списка всех активных брендов
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038465
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_d9835e08f67043189d1db23c9a6a6343
+type: Request
+parentId: fld_3f434c5911984625b5f8a9d68c7a29bb
+modified: 1601453377918
+created: 1601449038211
+url: "{{ base_url }}/api/auth/login"
+name: login
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - type: text
+      name: password
+      disabled: false
+      value: "{{ user.password }}"
+      id: pair_b79c99979c2a4174870f237690e0b302
+    - name: email
+      value: "{{ user.email }}"
+      description: ""
+      id: pair_056826cb484148cc887663c905e8739b
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038211
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

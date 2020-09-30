@@ -1,0 +1,21 @@
+_id: req_03eff23bd65b4ec48d908f30f1b3ab5d
+type: Request
+parentId: fld_b88defc35c5349cdab6240c4f94495e1
+modified: 1601449152938
+created: 1601449038497
+url: "{{ base_url }}/api/get/page/{{ page.slug }}"
+name: get-one-page
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038497
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

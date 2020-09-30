@@ -1,0 +1,21 @@
+_id: req_d3d1d3cca8f14022bd776568c2134d98
+type: Request
+parentId: fld_c3f5c06417484ceb8646b92dced3625f
+modified: 1601467356012
+created: 1601449038540
+url: "{{ base_url }}/api/get/categories/all"
+name: get-all-categories
+description: Запрос на получение списка всех категорий
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038540
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

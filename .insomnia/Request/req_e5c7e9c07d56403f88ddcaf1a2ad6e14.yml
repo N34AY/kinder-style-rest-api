@@ -1,0 +1,21 @@
+_id: req_e5c7e9c07d56403f88ddcaf1a2ad6e14
+type: Request
+parentId: fld_a86149a3fcc241b9a1e9519c3d7d5551
+modified: 1601449183670
+created: 1601449038422
+url: "{{ base_url }}/api/get/products/discount"
+name: discount
+description: "Запрос на получение списка активных товаров с акциями/скидками\r\n"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038422
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

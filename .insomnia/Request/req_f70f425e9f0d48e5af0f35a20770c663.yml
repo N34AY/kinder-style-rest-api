@@ -1,0 +1,21 @@
+_id: req_f70f425e9f0d48e5af0f35a20770c663
+type: Request
+parentId: fld_a86149a3fcc241b9a1e9519c3d7d5551
+modified: 1601449195500
+created: 1601449038397
+url: "{{ base_url }}/api/get/products/hit"
+name: hits
+description: Запрос на получение списка активных товаров со статусом "HIT"
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038397
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

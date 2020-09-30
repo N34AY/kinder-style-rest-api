@@ -1,0 +1,21 @@
+_id: req_bf2e7de0af7c4b85ae8a350817245b07
+type: Request
+parentId: fld_4d77700374d74f24802d11eb6b04e617
+modified: 1601449226003
+created: 1601449038353
+url: "{{ base_url }}/api/get/blog/all"
+name: all-articles
+description: Запрос на получение списка всех активных статей
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038353
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

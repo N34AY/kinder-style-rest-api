@@ -1,0 +1,21 @@
+_id: req_f1bf013042304c7b88b328904640e7b4
+type: Request
+parentId: fld_c3f5c06417484ceb8646b92dced3625f
+modified: 1601451456587
+created: 1601449038529
+url: "{{ base_url }}/api/categories/products/{{ category.slug }}"
+name: get-category-products
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038529
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

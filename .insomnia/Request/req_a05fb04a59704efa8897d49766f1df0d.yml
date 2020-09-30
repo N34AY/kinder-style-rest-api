@@ -1,0 +1,21 @@
+_id: req_a05fb04a59704efa8897d49766f1df0d
+type: Request
+parentId: fld_61c7b857a2a64404b08e39a59e1922e8
+modified: 1601450530840
+created: 1601449038106
+url: "{{ base_url }}/api/get-all-districts"
+name: get-all-districs
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038106
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

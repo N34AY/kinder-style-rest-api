@@ -1,0 +1,23 @@
+_id: req_70a346c2b24542299cf6e908e2884c56
+type: Request
+parentId: fld_d7e724fe7dec4036b9fb2c66a6160d27
+modified: 1601456468076
+created: 1601449038583
+url: "{{ base_url }}/api/get/banners"
+name: main banner
+description: "Запрос на получение большого баннера на главной странице.\r
+
+  Авторизация не нужна."
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
