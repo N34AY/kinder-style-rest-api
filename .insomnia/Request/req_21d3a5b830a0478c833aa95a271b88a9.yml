@@ -1,0 +1,21 @@
+_id: req_21d3a5b830a0478c833aa95a271b88a9
+type: Request
+parentId: fld_92eac21b42174211a9297e397484ea53
+modified: 1601533930216
+created: 1601533893508
+url: "{{ base_url }}/api/get/products/{{ product.slug }}/size"
+name: get-product-sizes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038326
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
