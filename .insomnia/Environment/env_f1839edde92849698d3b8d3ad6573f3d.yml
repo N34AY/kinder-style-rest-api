@@ -1,11 +1,11 @@
 _id: env_f1839edde92849698d3b8d3ad6573f3d
 type: Environment
 parentId: env_71ded4339b704f48da5bd1c42224a1e70e66e9d5
-modified: 1601540775749
+modified: 1601540894913
 created: 1601540731962
 name: local-env
 data:
-  base_url: 127.0.0.1
+  base_url: localhost:8000
   user:
     id: ""
     jwttoken: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
