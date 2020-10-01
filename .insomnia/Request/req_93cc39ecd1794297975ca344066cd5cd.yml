@@ -1,9 +1,9 @@
 _id: req_93cc39ecd1794297975ca344066cd5cd
 type: Request
 parentId: fld_3640510eab4e43ce9f56e68ac6852d32
-modified: 1601452549875
+modified: 1601553469106
 created: 1601449038288
-url: "{{ base_url }}/api/post/favorites/add/{{ product.slug }}"
+url: "{{ base_url }}/api/favorites/add/{{ product.id }}"
 name: add
 description: Запрос на добавление товара в избранные по его {slug}. Нужна авторизация.
 method: POST
