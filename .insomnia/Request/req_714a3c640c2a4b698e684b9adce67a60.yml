@@ -1,17 +1,17 @@
-_id: req_wrk_f1e44538b5c04149be4e3569cb13cab053fb3aa0
+_id: req_714a3c640c2a4b698e684b9adce67a60
 type: Request
-parentId: wrk_f1e44538b5c04149be4e3569cb13cab0
-modified: 1601537536341
-created: 1601474692236
-url: "{{ base_url }}/get/banners"
-name: Returns a list of banners
+parentId: fld_c3f5c06417484ceb8646b92dced3625f
+modified: 1601552408559
+created: 1601552368157
+url: "{{ base_url }}/api/categories/products/new"
+name: get-novelty-category
 description: ""
-method: GET
+method: POST
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1601474692236
+metaSortKey: -1601552368157
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

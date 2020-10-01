@@ -1,72 +1,8 @@
 _id: spc_8a66a159fe6447b1a990493c6e976802
 type: ApiSpec
 parentId: wrk_f1e44538b5c04149be4e3569cb13cab0
-modified: 1601537536380
+modified: 1601552906410
 created: 1601449038607
 fileName: Kinder-style
-contents: |
-  openapi: 3.0.0
-  info:
-    title: Kinder Style REST API
-    description: REST API for Kinder Style
-    version: 1.0.0
-    license:
-      name: MIT
-  servers:
-  - url: http://api-kinder.mobios.work/api
-    description: Test server
-  - url: http://api-kinder.mobios.work/api
-    description: Production server
-  paths:
-    /get/banners:
-      get:
-        summary: Returns a list of banners
-        description: Returns a list of banners
-        responses:
-          '200':
-            description: Success, return data
-            content:
-              application/json:
-                schema:
-                  type: array
-                  items:
-                    type: object
-                    properties:
-                      url:
-                        type: string
-                        example: http://kinder.mobios.work/category
-                      picture:
-                        type: string
-                        example: http://kinder.mobios.work/images/image.png
-                      title:
-                        type: object
-                        properties:
-                          ru:
-                            type: string
-                            example: ru
-                          ua:
-                            type: string
-                            example: ua
-                          en:
-                            type: string
-                            example: en
-                      anons:
-                        type: object
-                        properties:
-                         ru:
-                          type: string
-                          example: ru
-                         ua:
-                          type: string
-                          example: ua
-                         en:
-                          type: string
-                          example: en
-    /get/categories/<category-slug>/filters:
-      get:
-        summary: Returns a list of category filters
-        description: Returns a list of category filters
-        responses:
-          '200':
-            description:
+contents: ""
 contentType: yaml

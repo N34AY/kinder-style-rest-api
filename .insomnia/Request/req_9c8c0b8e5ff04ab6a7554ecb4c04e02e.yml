@@ -1,0 +1,21 @@
+_id: req_9c8c0b8e5ff04ab6a7554ecb4c04e02e
+type: Request
+parentId: fld_c3f5c06417484ceb8646b92dced3625f
+modified: 1601552586859
+created: 1601552545896
+url: "{{ base_url }}/api/categories/products/akcii"
+name: get-stocks-category
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601552545896
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,7 +1,7 @@
 _id: req_b2c2cc957b2b40f19dba53bdc6aa1bf5
 type: Request
 parentId: fld_92eac21b42174211a9297e397484ea53
-modified: 1601539638534
+modified: 1601552237705
 created: 1601538491918
 url: "{{ base_url }}/api/cart/place-one-click-order"
 name: place-order-one-click
@@ -94,7 +94,7 @@ headers:
     value: application/json
     id: pair_ab680f3519cf4fd49f8c3677c9387f13
 authentication: {}
-metaSortKey: -1601538491961
+metaSortKey: -1601449038410
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
