@@ -1,10 +1,10 @@
 _id: req_20eb8e5ed2974be8a70b0700b46eb7c4
 type: Request
 parentId: fld_61c7b857a2a64404b08e39a59e1922e8
-modified: 1601450526348
+modified: 1601537436961
 created: 1601449038095
-url: "{{ base_url }}/api/get/cart/delivery-types "
-name: deivery-types
+url: "{{ base_url }}/api/get/cart/get-delivery-types "
+name: get-deivery-types
 description: ""
 method: GET
 body: {}

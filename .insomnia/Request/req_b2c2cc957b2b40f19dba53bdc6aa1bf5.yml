@@ -1,0 +1,104 @@
+_id: req_b2c2cc957b2b40f19dba53bdc6aa1bf5
+type: Request
+parentId: fld_92eac21b42174211a9297e397484ea53
+modified: 1601539638534
+created: 1601538491918
+url: "{{ base_url }}/api/cart/place-one-click-order"
+name: place-order-one-click
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+    	"name": "{{ user.name }}",
+    	"phone": "{{ user.phone }}",
+    	"email": "{{ user.email }}",
+    	"products": [
+    		{
+    			"id": 4,
+    			"subcategory_id": 86,
+    			"subcategory_title": {
+    				"ru": "Свитера, кофти, худи",
+    				"ua": "Світера, кофти, худі",
+    				"en": null
+    			},
+    			"subcategory_slug": "svitera-kofti-khudi",
+    			"category_id": 85,
+    			"category_title": {
+    				"ru": "Детская одежда",
+    				"ua": "Дитячий одяг",
+    				"en": null
+    			},
+    			"category_slug":"detskaya-odezhda",
+    			"title": {
+    				"ru": "Куртка для девочки",
+    				"ua": "Крутка для дівчинки",
+    				"en": null
+    			},
+    			"slug": "kurtka-dlya-devochki",
+    			"article": "5456765",
+    			"anons": {
+    				"ru": null,
+    				"ua": null,
+    				"en": null
+    			},
+    			"meta_title": {
+    				"ru": "ru",
+    				"ua": "ua",
+    				"en": null
+    			},
+    			"meta_description": {
+    				"ru": "ru",
+    				"ua": "ua",
+    				"en": null
+    			},
+    			"meta_keywords": {
+    				"ru": "ru",
+    				"ua": "ua",
+    				"en": null
+    			},
+    			"description": {
+    				"ru": "<p>RU Completely simplify resource sucking expertise before 2.0 systems. Globally develop web-enabled \"outside the box\" thinking with magnetic methodologies. Distinctively transition granular metrics with next-generation applications. Collaboratively.</p>",
+    				"ua": "UA Completely simplify resource sucking expertise before 2.0 systems. Globally develop web-enabled \"outside the box\" thinking with magnetic methodologies. Distinctively transition granular metrics with next-generation applications. Collaboratively.",
+    				"en": null
+    			},
+    			"is_in_stock": "ok",
+    			"discounted": 0,
+    			"hit": 0,
+    			"sale": 0,
+    			"new": 1,
+    			"picture": "http://api-kinder.mobios.work/uploads/products/prev_pic-202010010935254097.jpg",
+    			"newPrice": 549,
+    			"oldPrice": 0,
+    			"measure_weight": null,
+    			"measure_unit": null,
+    			"delivery_period": null,
+    			"storage_period": null,
+    			"package": null,
+    			"country": null,
+    			"manufacturer": null,
+    			"calorie_content": null,
+    			"propAll": null,
+    			"propNotAdditional": null,
+    			"link": "/api/products/kurtka-dlya-devochki/card",
+    			"number": 1,
+    			"currNewPrice": 549,
+    			"currOldPrice": null
+    		}
+    	]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ab680f3519cf4fd49f8c3677c9387f13
+authentication: {}
+metaSortKey: -1601538491961
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

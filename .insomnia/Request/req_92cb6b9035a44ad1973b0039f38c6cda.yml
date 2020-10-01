@@ -1,10 +1,10 @@
 _id: req_92cb6b9035a44ad1973b0039f38c6cda
 type: Request
 parentId: fld_92eac21b42174211a9297e397484ea53
-modified: 1601452339372
+modified: 1601537515816
 created: 1601449038376
 url: "{{ base_url }}/api/get/products/{{ product.slug }}/card"
-name: product-card
+name: get-product-card
 description: Запрос на получение информации о товаре
 method: GET
 body: {}

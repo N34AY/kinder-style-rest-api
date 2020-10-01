@@ -1,17 +1,17 @@
-_id: req_a05fb04a59704efa8897d49766f1df0d
+_id: req_8e285dde4806486ca335eaf7ac34372b
 type: Request
-parentId: fld_61c7b857a2a64404b08e39a59e1922e8
-modified: 1601537458301
-created: 1601449038106
-url: "{{ base_url }}/api/get/get-all-districts"
-name: get-all-districs
+parentId: fld_fb6878dc6448437992871a5d7875f748
+modified: 1601534753420
+created: 1601534717962
+url: "{{ base_url }}/api/get/cart/regions"
+name: get-regions
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1601449038106
+metaSortKey: -1601534718002
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
