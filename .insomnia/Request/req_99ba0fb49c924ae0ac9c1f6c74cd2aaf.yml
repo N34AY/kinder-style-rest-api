@@ -1,7 +1,7 @@
 _id: req_99ba0fb49c924ae0ac9c1f6c74cd2aaf
 type: Request
 parentId: fld_e777d022cb604aa2a215567633369180
-modified: 1601450271896
+modified: 1601628549734
 created: 1601449038252
 url: "{{ base_url }}/api/feedback"
 name: add
@@ -16,10 +16,7 @@ body:
     	"text": "text"
     }
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_c6fd51d7dd7b4faf868d0aaef6bcbc1d
+headers: []
 authentication: {}
 metaSortKey: -1601449038252
 isPrivate: false

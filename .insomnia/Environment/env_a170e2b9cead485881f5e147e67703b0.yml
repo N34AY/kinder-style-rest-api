@@ -1,7 +1,7 @@
 _id: env_a170e2b9cead485881f5e147e67703b0
 type: Environment
 parentId: env_71ded4339b704f48da5bd1c42224a1e70e66e9d5
-modified: 1601556033226
+modified: 1601642154096
 created: 1601449071693
 name: test-env
 data:
@@ -10,13 +10,13 @@ data:
     id: ""
     jwttoken: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
       'b64::JC50b2tlbg==::46b', 'never', 60 %}"
-    email: ghghfg@gmail.com
-    password: fdgfdgfd
-    phone: "380685331858"
-    name: name
-    surname: surname
-    city: odessa
-    house: "11"
+    email: "{% randomThings '{re}' %}"
+    password: "{% randomThings '{rt}' %}"
+    phone: "{% randomThings '{rp}' %}"
+    name: "{% randomThings '{rt}' %}"
+    surname: "{% randomThings '{rt}' %}"
+    city: "{% randomThings '{rt}' %}"
+    house: "{% randomThings '{rt}' %}"
     orders:
       take: 10
   product:
