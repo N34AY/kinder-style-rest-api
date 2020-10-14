@@ -1,9 +1,11 @@
 _id: req_eb0f4f9330e44aad82bab7490120f5ba
 type: Request
 parentId: fld_fb6878dc6448437992871a5d7875f748
-modified: 1601884802736
+modified: 1602232366307
 created: 1601535382440
-url: "{{ base_url }}/api/get/cart/warehouses/70"
+url: "{{ base_url }}/api/get/cart/warehouses/{% response 'body',
+  'req_1afc6614fdb44c209b1841a655e6f6e7', 'b64::JFswXS5jaXR5X2lk::46b', 'never',
+  60 %}"
 name: get-warehouses
 description: ""
 method: GET

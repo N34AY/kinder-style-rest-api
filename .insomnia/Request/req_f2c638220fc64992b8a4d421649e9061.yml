@@ -1,0 +1,23 @@
+_id: req_f2c638220fc64992b8a4d421649e9061
+type: Request
+parentId: fld_99001714dbdd4ee0a91e81144768c224
+modified: 1602600976380
+created: 1602600635329
+url: "{{ base_url }}/api/categories/products/{% response 'body',
+  'req_6b5c03cfd91f47c096df33a4c8f5ef87', 'b64::JC5BWzBdLnNsdWc=::46b', 'never',
+  60 %}"
+name: get-brand
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

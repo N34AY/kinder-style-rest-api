@@ -1,17 +1,17 @@
-_id: req_20eb8e5ed2974be8a70b0700b46eb7c4
+_id: req_10607fa8b76148db8b8dd9b74e304348
 type: Request
-parentId: fld_61c7b857a2a64404b08e39a59e1922e8
-modified: 1602586921233
-created: 1601449038095
-url: "{{ base_url }}/api/get/cart/get-delivery-types "
-name: get-delivery-types
+parentId: fld_04b290bfb4c54a5aa7cad7f4d3e07dca
+modified: 1602586624103
+created: 1602586612556
+url: "{{ base_url }}/api/get/cart/payments"
+name: get-payment-methods
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1601449038095
+metaSortKey: -1602586612556
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

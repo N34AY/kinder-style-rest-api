@@ -1,11 +1,11 @@
 _id: req_1afc6614fdb44c209b1841a655e6f6e7
 type: Request
 parentId: fld_fb6878dc6448437992871a5d7875f748
-modified: 1601535318501
+modified: 1602232349134
 created: 1601535180092
 url: "{{ base_url }}/api/get/cart/cites/{% response 'body',
   'req_8e285dde4806486ca335eaf7ac34372b', 'b64::JFsxXS5yZWdpb25faWQ=::46b',
-  'always', 60 %}"
+  'never', 60 %}"
 name: get-cities
 description: ""
 method: GET
