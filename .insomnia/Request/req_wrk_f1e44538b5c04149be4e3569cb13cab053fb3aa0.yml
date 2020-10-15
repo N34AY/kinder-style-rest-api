@@ -1,17 +1,17 @@
-_id: req_f1bf013042304c7b88b328904640e7b4
+_id: req_wrk_f1e44538b5c04149be4e3569cb13cab053fb3aa0
 type: Request
-parentId: fld_c3f5c06417484ceb8646b92dced3625f
-modified: 1602082048482
-created: 1601449038529
-url: "{{ base_url }}/api/categories/products/{{ category.slug }}"
-name: get-category-products
+parentId: wrk_f1e44538b5c04149be4e3569cb13cab0
+modified: 1601549244156
+created: 1601474692236
+url: "{{ base_url }}/get/banners"
+name: Returns a list of banners
 description: ""
-method: POST
+method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1601449038529
+metaSortKey: -1601474692236
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
