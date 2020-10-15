@@ -1,0 +1,21 @@
+_id: req_9cc33152680e4156b0eadfa96b892fbb
+type: Request
+parentId: fld_c3f5c06417484ceb8646b92dced3625f
+modified: 1602665079356
+created: 1602665025137
+url: "{{ base_url }}/api/get/categories/armani/subcategories"
+name: get-sub-categories
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1601449038467
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

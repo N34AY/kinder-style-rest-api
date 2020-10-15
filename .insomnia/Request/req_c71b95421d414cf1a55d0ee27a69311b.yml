@@ -1,0 +1,21 @@
+_id: req_c71b95421d414cf1a55d0ee27a69311b
+type: Request
+parentId: fld_92eac21b42174211a9297e397484ea53
+modified: 1602769954308
+created: 1602769398747
+url: "{{ base_url }}/api/get/products/get-sizes-table/{{ product.slug }}р"
+name: get-sizes-table
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1602769398794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
