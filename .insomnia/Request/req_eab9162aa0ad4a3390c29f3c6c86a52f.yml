@@ -1,7 +1,7 @@
 _id: req_eab9162aa0ad4a3390c29f3c6c86a52f
 type: Request
 parentId: fld_3640510eab4e43ce9f56e68ac6852d32
-modified: 1601452535923
+modified: 1602834479863
 created: 1601449038276
 url: "{{ base_url }}/api/get/favorites/all"
 name: all
@@ -13,7 +13,8 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: "{{ user.jwttoken }}"
+  token: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   prefix: ""
 metaSortKey: -1601449038276
 isPrivate: false

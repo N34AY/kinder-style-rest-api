@@ -1,22 +1,20 @@
-_id: req_d48ac8fe3a6448bb8d1960eb9545987a
+_id: req_bfce109d283d49a796c561444c596d19
 type: Request
-parentId: fld_b8c661fe64214736952afd5b5a407ec3
-modified: 1603119100439
-created: 1601449038155
-url: "{{ base_url }}/api/get/auth/user"
-name: user-profile-info
-description: Запрос на получение информации о пользователе
-method: GET
+parentId: fld_3640510eab4e43ce9f56e68ac6852d32
+modified: 1603119519015
+created: 1602834335797
+url: "{{ base_url }}/api/favorites/remove/13"
+name: delete
+description: ""
+method: DELETE
 body: {}
 parameters: []
 headers: []
 authentication:
   type: bearer
-  disabled: false
   token: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
     'b64::JC50b2tlbg==::46b', 'never', 60 %}"
-  prefix: ""
-metaSortKey: -1601449038155
+metaSortKey: -1602834335797
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

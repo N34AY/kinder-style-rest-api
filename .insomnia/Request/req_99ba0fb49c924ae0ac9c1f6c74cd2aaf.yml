@@ -1,14 +1,14 @@
 _id: req_99ba0fb49c924ae0ac9c1f6c74cd2aaf
 type: Request
 parentId: fld_e777d022cb604aa2a215567633369180
-modified: 1601628549734
+modified: 1603118476861
 created: 1601449038252
 url: "{{ base_url }}/api/feedback"
 name: add
 description: Запрос на отправку заявки со страницы контактов
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
     	"name": "name",
@@ -16,7 +16,9 @@ body:
     	"text": "text"
     }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
 authentication: {}
 metaSortKey: -1601449038252
 isPrivate: false

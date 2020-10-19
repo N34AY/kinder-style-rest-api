@@ -1,22 +1,20 @@
 _id: req_93cc39ecd1794297975ca344066cd5cd
 type: Request
 parentId: fld_3640510eab4e43ce9f56e68ac6852d32
-modified: 1601630024600
+modified: 1602834315955
 created: 1601449038288
-url: "{{ base_url }}/api/favorites/add/{{ product.id }}"
+url: "{{ base_url }}/api/favorites/add/13"
 name: add
 description: Запрос на добавление товара в избранные по его {slug}. Нужна авторизация.
 method: POST
 body: {}
 parameters: []
-headers:
-  - name: Authorization
-    value: "{{ user.jwttoken }}"
-    id: pair_1717463364434868bd3734bd9ffa1554
+headers: []
 authentication:
   type: bearer
   disabled: false
-  token: "{{ user.jwttoken }}"
+  token: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   prefix: ""
 metaSortKey: -1601449038288
 isPrivate: false

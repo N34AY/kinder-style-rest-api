@@ -1,35 +1,35 @@
 _id: req_ffa84c4a28094dc198d0fd3d30b953fd
 type: Request
 parentId: fld_b8c661fe64214736952afd5b5a407ec3
-modified: 1601453715614
+modified: 1603119379081
 created: 1601449038145
 url: "{{ base_url }}/api/auth/user"
-name: user-profile-info
+name: update-user-profile-info
 description: ""
 method: POST
 body:
-  mimeType: ""
+  mimeType: application/json
   text: |-
     {
         "apartment": "apartmenttext",
-        "auth": true,
-        "city": {{ user.city }},
-        "email": {{ user.email }},
-        "house": {{ user.house }},
-        "id": {{ user.id }},
-        "is_admin": false,
+        "city": "Odessa",
+        "email": "qa.mobios20@gmail.com",
+        "house": "11-B",
         "name": "nametext",
         "phone": "phonetext",
         "street": "streettext",
-        "success": true,
-        "surname": {{ user.surname }}
+        "surname": "Adfdsfsd"
     }
 parameters: []
-headers: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_951d2be7c4564ac485a5f18f096ace79
 authentication:
   type: bearer
   disabled: false
-  token: "{{ user.jwttoken }}"
+  token: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
   prefix: ""
 metaSortKey: -1601449038145
 isPrivate: false

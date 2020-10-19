@@ -1,7 +1,7 @@
 _id: env_a170e2b9cead485881f5e147e67703b0
 type: Environment
 parentId: env_71ded4339b704f48da5bd1c42224a1e70e66e9d5
-modified: 1601642154096
+modified: 1603092233693
 created: 1601449071693
 name: test-env
 data:
@@ -30,10 +30,10 @@ data:
     slug: o-nas
   search:
     text:
-      ua: худі
-      ru: худи
-    take: 0
-    offset: 6
+      ua: pro
+      ru: pro
+    take: 10
+    offset: 0
 dataPropertyOrder:
   "&":
     - base_url
