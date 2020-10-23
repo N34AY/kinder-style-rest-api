@@ -1,0 +1,24 @@
+_id: req_2ced09a0a33f43aeb1c301e3a15a4c2f
+type: Request
+parentId: fld_3640510eab4e43ce9f56e68ac6852d32
+modified: 1603433957911
+created: 1603433872662
+url: "{{ base_url }}/api/favorites/has/2"
+name: check
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
+    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+metaSortKey: -1603433872662
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

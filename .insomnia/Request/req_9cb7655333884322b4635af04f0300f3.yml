@@ -1,20 +1,15 @@
 _id: req_9cb7655333884322b4635af04f0300f3
 type: Request
 parentId: fld_c3f5c06417484ceb8646b92dced3625f
-modified: 1602833990358
+modified: 1603184820753
 created: 1602672992082
 url: "{{ base_url }}/api/get/categories/all-type"
 name: all-types
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: ""
+body: {}
 parameters: []
-headers:
-  - name: Content-Type
-    value: application/json
-    id: pair_fc491065c12846c889f7c8b3c18abb8b
+headers: []
 authentication: {}
 metaSortKey: -1602672992082
 isPrivate: false
