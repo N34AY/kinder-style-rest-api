@@ -1,7 +1,7 @@
 _id: req_be1a787a2bd34636a4fb07213aec3477
 type: Request
 parentId: fld_0568be2a076a4013938aa50058ef00a8
-modified: 1603092192496
+modified: 1604506417164
 created: 1601449038174
 url: "{{ base_url }}/api/get/products/search"
 name: header-search
@@ -10,21 +10,17 @@ method: GET
 body: {}
 parameters:
   - name: s
-    value: "{{ search.text.ru }}"
+    value: pro
     description: ""
     id: pair_e4d0cd4e0d4d4f53a7e08887b6de5ed3
   - name: take
-    value: "{{ search.take }}"
+    value: "4"
     description: ""
     id: pair_ccb39d54a99940ad98dc71fb2f94d4cf
-  - name: offset
-    value: "{{ search.offset }}"
-    description: ""
-    id: pair_719e30b6bd41431f8345aa6322a2ef60
-  - name: page
+  - name: skip
     value: "2"
     description: ""
-    id: pair_8f1c3a4e525a48c0a8fa7864fa1a79f2
+    id: pair_719e30b6bd41431f8345aa6322a2ef60
 headers: []
 authentication: {}
 metaSortKey: -1601449038174

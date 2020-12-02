@@ -1,7 +1,7 @@
 _id: req_93cc39ecd1794297975ca344066cd5cd
 type: Request
 parentId: fld_3640510eab4e43ce9f56e68ac6852d32
-modified: 1602834315955
+modified: 1603962863032
 created: 1601449038288
 url: "{{ base_url }}/api/favorites/add/13"
 name: add
@@ -13,8 +13,7 @@ headers: []
 authentication:
   type: bearer
   disabled: false
-  token: "{% response 'body', 'req_d9835e08f67043189d1db23c9a6a6343',
-    'b64::JC50b2tlbg==::46b', 'never', 60 %}"
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9hcGkta2luZGVyLm1vYmlvcy53b3JrXC9hcGlcL2F1dGhcL2xvZ2luIiwiaWF0IjoxNjAzOTYwNjMxLCJleHAiOjE2MDUxNzAyMzEsIm5iZiI6MTYwMzk2MDYzMSwianRpIjoiREZtUGpLQ0JsUHVuT2pxYiIsInN1YiI6ODIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.aaPHpPlk3R9EiurGiqSPYlsW0R-r_u58F2i9v3_sFvI
   prefix: ""
 metaSortKey: -1601449038288
 isPrivate: false
